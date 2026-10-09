@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-08",
+  "rows_source": 14211,
+  "products": 488,
+  "pairs": 13665,
+  "train": 10292,
+  "train_pct": 0.7531650201244054,
+  "validation": 2451,
+  "inner_train": 7841,
+  "test": 3373,
+  "train_targets": [
+    "2023-08",
+    "2025-10"
+  ],
+  "validation_targets": [
+    "2025-05",
+    "2025-10"
+  ],
+  "test_targets": [
+    "2025-11",
+    "2026-06"
+  ],
+  "reg_validation": {
+    "Persistance": {
+      "MAE": 786.6375316197469,
+      "RMSE": 4425.7483240847905,
+      "MSE": 19587248.228139333,
+      "R2_unites": 0.812283886269568,
+      "WAPE": 0.30970585794541616,
+      "MAE_log": 0.396767670667013
+    },
+    "Ridge_residuel_alpha1": {
+      "MAE": 890.6515104838372,
+      "RMSE": 4906.577189761227,
+      "MSE": 24074499.719085176,
+      "R2_unites": 0.7692799174935285,
+      "WAPE": 0.3506570422807083,
+      "MAE_log": 0.4121596715964103
+    },
+    "Ridge_residuel_alpha100": {
+      "MAE": 713.6974537746202,
+      "RMSE": 3362.939596029239,
+      "MSE": 11309362.726541303,
+      "R2_unites": 0.8916157290157648,
+      "WAPE": 0.28098873159483895,
+      "MAE_log": 0.39050687217327873
+    },
+    "Foret_residuelle_150": {
+      "MAE": 450.7515181599043,
+      "RMSE": 2767.0023164190156,
+      "MSE": 7656301.819068197,
+      "R2_unites": 0.9266251590686435,
+      "WAPE": 0.17746468994997494,
+      "MAE_log": 0.30583429336633566
+    },
+    "Boosting_residuel": {
+      "MAE": 501.0454912297256,
+      "RMSE": 2876.977596254899,
+      "MSE": 8277000.089352614,
+      "R2_unites": 0.9206766426798225,
+      "WAPE": 0.19726585306890188,
+      "MAE_log": 0.31353027908159264
+    },
+    "Saisonnier": {
+      "MAE": 634.0673643410852,
+      "RMSE": 2010.7746328063356,
+      "MSE": 4043214.623937454,
+      "R2_unites": 0.9612514975384224,
+      "WAPE": 0.2496376910266342,
+      "MAE_log": 0.6303972158005218
+    }
+  },
+  "reg_test": {
+    "Foret_residuelle_150": {
+      "MAE": 726.2433981500832,
+      "RMSE": 3492.2078282584403,
+      "MSE": 12195515.51574953,
+      "R2_unites": 0.9442415467124392,
+      "WAPE": 0.20809036408645898,
+      "MAE_log": 0.30685476333567796
+    },
+    "Persistance": {
+      "MAE": 1201.401980432849,
+      "RMSE": 5917.837296256408,
+      "MSE": 35020798.26496335,
+      "R2_unites": 0.8398833127120962,
+      "WAPE": 0.3442374500880491,
+      "MAE_log": 0.37813731047588695
+    },
+    "Saisonnier": {
+      "MAE": 596.1295108212273,
+      "RMSE": 1919.0527997569745,
+      "MSE": 3682763.6482550823,
+      "R2_unites": 0.9831622365954789,
+      "WAPE": 0.17080886003983525,
+      "MAE_log": 0.5424215239632023
+    }
+  },
+  "risk_validation": {
+    "Regression_seuil20": {
+      "Accuracy": 0.7209193245778611,
+      "Balanced_accuracy": 0.6262005498429021,
+      "Precision": 0.48111332007952284,
+      "Recall": 0.4201388888888889,
+      "F2": 0.43106519415746347,
+      "AP": 0.3587948284858289,
+      "AUC": 0.626200549842902,
+      "Confusion": [
+        [
+          1295,
+          261
+        ],
+        [
+          334,
+          242
+        ]
+      ],
+      "Threshold": 0.5,
+      "Alerts": 503
+    },
+    "Logistique": {
+      "Accuracy": 0.7406191369606003,
+      "Balanced_accuracy": 0.7397462332190803,
+      "Precision": 0.5139056831922612,
+      "Recall": 0.7378472222222222,
+      "F2": 0.6786969019482594,
+      "AP": 0.527140762565131,
+      "AUC": 0.7955874214510139,
+      "Confusion": [
+        [
+          1154,
+          402
+        ],
+        [
+          151,
+          425
+        ]
+      ],
+      "Threshold": 0.40000000000000013,
+      "Alerts": 827
+    },
+    "Foret_risque": {
+      "Accuracy": 0.7340525328330206,
+      "Balanced_accuracy": 0.6187964153099115,
+      "Precision": 0.5108433734939759,
+      "Recall": 0.3680555555555556,
+      "F2": 0.3898492092681133,
+      "AP": 0.49092143600628485,
+      "AUC": 0.6756228131248214,
+      "Confusion": [
+        [
+          1353,
+          203
+        ],
+        [
+          364,
+          212
+        ]
+      ],
+      "Threshold": 0.6000000000000002,
+      "Alerts": 415
+    },
+    "Boosting_risque": {
+      "Accuracy": 0.7298311444652908,
+      "Balanced_accuracy": 0.5907553199085975,
+      "Precision": 0.5,
+      "Recall": 0.2881944444444444,
+      "F2": 0.3148710166919575,
+      "AP": 0.4873368340523123,
+      "AUC": 0.7038290399171664,
+      "Confusion": [
+        [
+          1390,
+          166
+        ],
+        [
+          410,
+          166
+        ]
+      ],
+      "Threshold": 0.5500000000000002,
+      "Alerts": 332
+    }
+  },
+  "risk_test": {
+    "Logistique": {
+      "Accuracy": 0.6140233722871452,
+      "Balanced_accuracy": 0.6048047664055325,
+      "Precision": 0.6017526777020448,
+      "Recall": 0.7852604828462516,
+      "F2": 0.7401197604790419,
+      "AP": 0.6351355652643643,
+      "AUC": 0.6382135994212783,
+      "Confusion": [
+        [
+          603,
+          818
+        ],
+        [
+          338,
+          1236
+        ]
+      ],
+      "Threshold": 0.40000000000000013,
+      "Alerts": 2054
+    },
+    "Aucune_alerte": {
+      "Accuracy": 0.47445742904841404,
+      "Balanced_accuracy": 0.5,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F2": 0.0,
+      "AP": 0.525542570951586,
+      "AUC": 0.5,
+      "Confusion": [
+        [
+          1421,
+          0
+        ],
+        [
+          1574,
+          0
+        ]
+      ],
+      "Threshold": 0.5,
+      "Alerts": 0
+    },
+    "Baisse_precedente": {
+      "Accuracy": 0.4410684474123539,
+      "Balanced_accuracy": 0.443163090938518,
+      "Precision": 0.4633967789165447,
+      "Recall": 0.40216010165184246,
+      "F2": 0.4130775254502741,
+      "AP": 0.5005500129095395,
+      "AUC": 0.4431630909385179,
+      "Confusion": [
+        [
+          688,
+          733
+        ],
+        [
+          941,
+          633
+        ]
+      ],
+      "Threshold": 0.5,
+      "Alerts": 1366
+    },
+    "Regression_seuil20": {
+      "Accuracy": 0.5048414023372287,
+      "Balanced_accuracy": 0.5251449263050968,
+      "Precision": 0.6463022508038585,
+      "Recall": 0.12770012706480305,
+      "F2": 0.15211139700317844,
+      "AP": 0.5409635974130261,
+      "AUC": 0.5251449263050968,
+      "Confusion": [
+        [
+          1311,
+          110
+        ],
+        [
+          1373,
+          201
+        ]
+      ],
+      "Threshold": 0.5,
+      "Alerts": 311
+    },
+    "Saisonnier_seuil20": {
+      "Accuracy": 0.584974958263773,
+      "Balanced_accuracy": 0.5973478687360674,
+      "Precision": 0.7102922490470139,
+      "Recall": 0.35514612452350697,
+      "F2": 0.3946068050261189,
+      "AP": 0.5911557031341426,
+      "AUC": 0.5973478687360674,
+      "Confusion": [
+        [
+          1193,
+          228
+        ],
+        [
+          1015,
+          559
+        ]
+      ],
+      "Threshold": 0.5,
+      "Alerts": 787
+    }
+  },
+  "threshold_policy": "Maximiser F2 sur validation sous précision >= 50% et <= 50% de références signalées ; repli au F2 si aucun seuil admissible.",
+  "reg_selected": "Foret_residuelle_150",
+  "risk_counts": {
+    "inner": 6879,
+    "validation": 2132,
+    "train": 9011,
+    "test": 2995,
+    "validation_events": 576,
+    "test_events": 1574,
+    "test_event_rate": 0.525542570951586
+  },
+  "risk_selected": "Logistique",
+  "risk_threshold": 0.40000000000000013,
+  "alert_policy": "Alertes principales selon classificateur choisi sur validation, seuil fixé sur validation ; baisse prévue par régression affichée séparément.",
+  "elapsed_s": 68.03013646899853
+}

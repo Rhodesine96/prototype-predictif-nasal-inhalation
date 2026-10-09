@@ -1,0 +1,127 @@
+{
+  "origine": "2025-10",
+  "statut": "Test exploratoire récursif à origine fixe ; modèles déjà sélectionnés pendant la reprise, sans nouveau test aveugle ni validation métier.",
+  "hypotheses": "Distribution, VMM et stocks constants à la dernière observation connue.",
+  "resultats": [
+    {
+      "Horizon": 1,
+      "Mois": "2025-11",
+      "Observations": 415,
+      "prediction_ia": {
+        "MAE": 1798.6832214674344,
+        "RMSE": 6285.533671398958,
+        "WAPE": 0.46332786591599356
+      },
+      "prediction_reference": {
+        "MAE": 1151.2229156626506,
+        "RMSE": 3800.664472037926,
+        "WAPE": 0.29654674616489773
+      },
+      "prediction_saisonniere": {
+        "MAE": 783.9123855421685,
+        "RMSE": 2072.08687781451,
+        "WAPE": 0.20193019444638463
+      }
+    },
+    {
+      "Horizon": 2,
+      "Mois": "2025-12",
+      "Observations": 414,
+      "prediction_ia": {
+        "MAE": 1135.7715697537642,
+        "RMSE": 3460.72882844387,
+        "WAPE": 0.16412455037312973
+      },
+      "prediction_reference": {
+        "MAE": 1923.358043478261,
+        "RMSE": 8475.193537553985,
+        "WAPE": 0.27793465032836623
+      },
+      "prediction_saisonniere": {
+        "MAE": 911.9356763285022,
+        "RMSE": 2606.273207628318,
+        "WAPE": 0.13177916830501413
+      }
+    },
+    {
+      "Horizon": 3,
+      "Mois": "2026-01",
+      "Observations": 410,
+      "prediction_ia": {
+        "MAE": 1536.9723001177365,
+        "RMSE": 5264.742673835572,
+        "WAPE": 0.2843163070521627
+      },
+      "prediction_reference": {
+        "MAE": 785.7318292682928,
+        "RMSE": 2729.465002048312,
+        "WAPE": 0.14534833972856154
+      },
+      "prediction_saisonniere": {
+        "MAE": 950.4942439024388,
+        "RMSE": 2812.5105803266338,
+        "WAPE": 0.1758268599115142
+      }
+    },
+    {
+      "Horizon": 4,
+      "Mois": "2026-02",
+      "Observations": 406,
+      "prediction_ia": {
+        "MAE": 2233.1236421635604,
+        "RMSE": 9535.520193200442,
+        "WAPE": 0.5824568135141335
+      },
+      "prediction_reference": {
+        "MAE": 1375.0564039408869,
+        "RMSE": 6048.9800351122585,
+        "WAPE": 0.3586505271448606
+      },
+      "prediction_saisonniere": {
+        "MAE": 847.2050492610838,
+        "RMSE": 2723.5614909090646,
+        "WAPE": 0.2209731445535217
+      }
+    },
+    {
+      "Horizon": 5,
+      "Mois": "2026-03",
+      "Observations": 408,
+      "prediction_ia": {
+        "MAE": 2134.62690913908,
+        "RMSE": 9501.617800179854,
+        "WAPE": 0.7097566966849469
+      },
+      "prediction_reference": {
+        "MAE": 2156.105,
+        "RMSE": 9434.290895740909,
+        "WAPE": 0.7168980939732879
+      },
+      "prediction_saisonniere": {
+        "MAE": 402.8324019607843,
+        "RMSE": 1038.448149729191,
+        "WAPE": 0.1339404997235142
+      }
+    },
+    {
+      "Horizon": 6,
+      "Mois": "2026-04",
+      "Observations": 407,
+      "prediction_ia": {
+        "MAE": 2098.1154858609843,
+        "RMSE": 9561.256518911556,
+        "WAPE": 0.8753177147714594
+      },
+      "prediction_reference": {
+        "MAE": 2757.5096805896806,
+        "RMSE": 11960.427408521264,
+        "WAPE": 1.1504119236236652
+      },
+      "prediction_saisonniere": {
+        "MAE": 356.62457002457006,
+        "RMSE": 964.8710984787591,
+        "WAPE": 0.14878103982782567
+      }
+    }
+  ]
+}

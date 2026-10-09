@@ -1,0 +1,36 @@
+{
+  "ventes_brutes": {
+    "mean_ms": 2.87329764,
+    "median_ms": 2.472696,
+    "repetitions": 200,
+    "answer": [
+      21309.74,
+      2
+    ],
+    "query_plan": [
+      [
+        3,
+        0,
+        216,
+        "SCAN ventes_brutes"
+      ]
+    ]
+  },
+  "ventes": {
+    "mean_ms": 0.00774978,
+    "median_ms": 0.0055855,
+    "repetitions": 200,
+    "answer": [
+      21309.74,
+      2
+    ],
+    "query_plan": [
+      [
+        4,
+        0,
+        59,
+        "SEARCH ventes USING INDEX idx_ventes_labo_date (Laboratoire=? AND Annee=? AND Mois=?)"
+      ]
+    ]
+  }
+}

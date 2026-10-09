@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-08",
+  "temporal_features": "OK",
+  "streamlit": [
+    {
+      "role": "admin",
+      "page": "Accueil",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Prévision produit",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Alertes portefeuille",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Évaluation IA",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Dossier de décision",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Administration",
+      "status": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "projection",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Accueil",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Prévision produit",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Alertes portefeuille",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Évaluation IA",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Dossier de décision",
+      "status": "OK"
+    },
+    {
+      "role": "client",
+      "page": "projection",
+      "status": "OK"
+    }
+  ]
+}

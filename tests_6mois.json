@@ -1,0 +1,74 @@
+{
+  "horizons": 6,
+  "invariance_apres_suppression_du_futur": "OK",
+  "score_risque_premier_mois_uniquement": "OK",
+  "graphiques": 4,
+  "parcours": [
+    {
+      "role": "admin",
+      "page": "Accueil",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Prévision produit",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Alertes portefeuille",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Évaluation IA",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Dossier de décision",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "admin",
+      "page": "Administration",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Accueil",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Prévision produit",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Alertes portefeuille",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Évaluation IA",
+      "mois": "2026-12",
+      "statut": "OK"
+    },
+    {
+      "role": "client",
+      "page": "Dossier de décision",
+      "mois": "2026-12",
+      "statut": "OK"
+    }
+  ]
+}
